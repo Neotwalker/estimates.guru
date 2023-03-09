@@ -1,0 +1,33 @@
+.pdf-page {
+	background: #C7D7ED;
+}
+
+.pdf-page::before{
+	content: '';
+	display: block;
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0;
+	width: 206px;
+	height: 28px;
+	background-image: url("data:image/svg+xml,%3Csvg width='197' height='29' viewBox='0 0 197 29' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='89.8953' cy='3.84943' r='3.84943' fill='black'/%3E%3Ccircle cx='158.732' cy='3.84943' r='3.84943' fill='black'/%3E%3Ccircle cx='175.941' cy='3.84943' r='3.84943' fill='black'/%3E%3Ccircle cx='3.84943' cy='3.84943' r='3.84943' fill='black'/%3E%3Ccircle cx='21.0587' cy='3.84943' r='3.84943' fill='black'/%3E%3Ccircle cx='38.2676' cy='3.84943' r='3.84943' fill='black'/%3E%3Ccircle cx='107.105' cy='3.84943' r='3.84943' fill='black'/%3E%3Ccircle cx='55.4771' cy='3.84943' r='3.84943' fill='black'/%3E%3Ccircle cx='124.314' cy='3.84943' r='3.84943' fill='black'/%3E%3Ccircle cx='72.6863' cy='3.84943' r='3.84943' fill='black'/%3E%3Ccircle cx='141.523' cy='3.84943' r='3.84943' fill='black'/%3E%3Ccircle cx='193.15' cy='3.84943' r='3.84943' fill='black'/%3E%3Ccircle cx='89.8956' cy='24.6816' r='3.84943' fill='black'/%3E%3Ccircle cx='158.732' cy='24.6816' r='3.84943' fill='black'/%3E%3Ccircle cx='175.942' cy='24.6816' r='3.84943' fill='black'/%3E%3Ccircle cx='21.0587' cy='24.6816' r='3.84943' fill='black'/%3E%3Ccircle cx='38.2679' cy='24.6816' r='3.84943' fill='black'/%3E%3Ccircle cx='107.105' cy='24.6816' r='3.84943' fill='black'/%3E%3Ccircle cx='55.4771' cy='24.6816' r='3.84943' fill='black'/%3E%3Ccircle cx='124.314' cy='24.6816' r='3.84943' fill='black'/%3E%3Ccircle cx='72.6866' cy='24.6816' r='3.84943' fill='black'/%3E%3Ccircle cx='141.523' cy='24.6816' r='3.84943' fill='black'/%3E%3Ccircle cx='80.8377' cy='14.2656' r='3.84943' fill='black'/%3E%3Ccircle cx='149.675' cy='14.2656' r='3.84943' fill='black'/%3E%3Ccircle cx='166.884' cy='14.2656' r='3.84943' fill='black'/%3E%3Ccircle cx='12.001' cy='14.2656' r='3.84943' fill='black'/%3E%3Ccircle cx='29.21' cy='14.2656' r='3.84943' fill='black'/%3E%3Ccircle cx='98.0469' cy='14.2656' r='3.84943' fill='black'/%3E%3Ccircle cx='46.4193' cy='14.2656' r='3.84943' fill='black'/%3E%3Ccircle cx='115.256' cy='14.2656' r='3.84943' fill='black'/%3E%3Ccircle cx='63.6285' cy='14.2656' r='3.84943' fill='black'/%3E%3Ccircle cx='132.465' cy='14.2656' r='3.84943' fill='black'/%3E%3Ccircle cx='184.093' cy='14.2656' r='3.84943' fill='black'/%3E%3C/svg%3E%0A");
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin: auto;
+}
+
+.pdf-page::after{
+	content: '';
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 206px;
+	height: 28px;
+	background-image: url("data:image/svg+xml,%3Csvg width='197' height='29' viewBox='0 0 197 29' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='107.105' cy='24.6816' r='3.84943' transform='rotate(-180 107.105 24.6816)' fill='black'/%3E%3Ccircle cx='38.2678' cy='24.6816' r='3.84943' transform='rotate(-180 38.2678 24.6816)' fill='black'/%3E%3Ccircle cx='21.0585' cy='24.6816' r='3.84943' transform='rotate(-180 21.0585 24.6816)' fill='black'/%3E%3Ccircle cx='193.151' cy='24.6816' r='3.84943' transform='rotate(-180 193.151 24.6816)' fill='black'/%3E%3Ccircle cx='175.941' cy='24.6816' r='3.84943' transform='rotate(-180 175.941 24.6816)' fill='black'/%3E%3Ccircle cx='158.732' cy='24.6816' r='3.84943' transform='rotate(-180 158.732 24.6816)' fill='black'/%3E%3Ccircle cx='89.8954' cy='24.6816' r='3.84943' transform='rotate(-180 89.8954 24.6816)' fill='black'/%3E%3Ccircle cx='141.523' cy='24.6816' r='3.84943' transform='rotate(-180 141.523 24.6816)' fill='black'/%3E%3Ccircle cx='72.6862' cy='24.6816' r='3.84943' transform='rotate(-180 72.6862 24.6816)' fill='black'/%3E%3Ccircle cx='124.314' cy='24.6816' r='3.84943' transform='rotate(-180 124.314 24.6816)' fill='black'/%3E%3Ccircle cx='55.477' cy='24.6816' r='3.84943' transform='rotate(-180 55.477 24.6816)' fill='black'/%3E%3Ccircle cx='3.84955' cy='24.6816' r='3.84943' transform='rotate(-180 3.84955 24.6816)' fill='black'/%3E%3Ccircle cx='107.104' cy='3.84937' r='3.84943' transform='rotate(-180 107.104 3.84937)' fill='black'/%3E%3Ccircle cx='38.2675' cy='3.84937' r='3.84943' transform='rotate(-180 38.2675 3.84937)' fill='black'/%3E%3Ccircle cx='21.0583' cy='3.84937' r='3.84943' transform='rotate(-180 21.0583 3.84937)' fill='black'/%3E%3Ccircle cx='175.941' cy='3.84943' r='3.84943' transform='rotate(-180 175.941 3.84943)' fill='black'/%3E%3Ccircle cx='158.732' cy='3.84937' r='3.84943' transform='rotate(-180 158.732 3.84937)' fill='black'/%3E%3Ccircle cx='89.8952' cy='3.84937' r='3.84943' transform='rotate(-180 89.8952 3.84937)' fill='black'/%3E%3Ccircle cx='141.523' cy='3.84937' r='3.84943' transform='rotate(-180 141.523 3.84937)' fill='black'/%3E%3Ccircle cx='72.686' cy='3.84937' r='3.84943' transform='rotate(-180 72.686 3.84937)' fill='black'/%3E%3Ccircle cx='124.313' cy='3.84937' r='3.84943' transform='rotate(-180 124.313 3.84937)' fill='black'/%3E%3Ccircle cx='55.477' cy='3.84937' r='3.84943' transform='rotate(-180 55.477 3.84937)' fill='black'/%3E%3Ccircle cx='116.162' cy='14.2656' r='3.84943' transform='rotate(-180 116.162 14.2656)' fill='black'/%3E%3Ccircle cx='47.3254' cy='14.2656' r='3.84943' transform='rotate(-180 47.3254 14.2656)' fill='black'/%3E%3Ccircle cx='30.1164' cy='14.2656' r='3.84943' transform='rotate(-180 30.1164 14.2656)' fill='black'/%3E%3Ccircle cx='184.999' cy='14.2655' r='3.84943' transform='rotate(-180 184.999 14.2655)' fill='black'/%3E%3Ccircle cx='167.79' cy='14.2656' r='3.84943' transform='rotate(-180 167.79 14.2656)' fill='black'/%3E%3Ccircle cx='98.9531' cy='14.2656' r='3.84943' transform='rotate(-180 98.9531 14.2656)' fill='black'/%3E%3Ccircle cx='150.581' cy='14.2656' r='3.84943' transform='rotate(-180 150.581 14.2656)' fill='black'/%3E%3Ccircle cx='81.7441' cy='14.2656' r='3.84943' transform='rotate(-180 81.7441 14.2656)' fill='black'/%3E%3Ccircle cx='133.372' cy='14.2656' r='3.84943' transform='rotate(-180 133.372 14.2656)' fill='black'/%3E%3Ccircle cx='64.5349' cy='14.2656' r='3.84943' transform='rotate(-180 64.5349 14.2656)' fill='black'/%3E%3Ccircle cx='12.9072' cy='14.2656' r='3.84943' transform='rotate(-180 12.9072 14.2656)' fill='black'/%3E%3C/svg%3E%0A");
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin: auto;
+}

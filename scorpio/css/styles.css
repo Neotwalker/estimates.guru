@@ -1,0 +1,332 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	font-family: 'Open Sans Light';
+	font-style: normal;
+	font-weight: 300;
+	src: url('../fonts/OpenSans_Light.eot') format('eot'),
+		url('../fonts/OpenSans_Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/OpenSans_Light.woff') format('woff'),
+		url('../fonts/OpenSans_Light.ttf') format('truetype'),
+		url('../fonts/OpenSans_Light.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Open Sans Regular';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/OpenSans_Regular.eot') format('eot'),
+		url('../fonts/OpenSans_Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/OpenSans_Regular.woff') format('woff'),
+		url('../fonts/OpenSans_Regular.ttf') format('truetype'),
+		url('../fonts/OpenSans_Regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Open Sans SemiBold';
+	font-style: normal;
+	font-weight: 600;
+	src: url('../fonts/OpenSans_SemiBold.eot') format('eot'),
+		url('../fonts/OpenSans_SemiBold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/OpenSans_SemiBold.woff') format('woff'),
+		url('../fonts/OpenSans_SemiBold.ttf') format('truetype'),
+		url('../fonts/OpenSans_SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Open Sans Bold';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/OpenSans-Bold.eot') format('eot'),
+		url('../fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/OpenSans-Bold.woff') format('woff'),
+		url('../fonts/OpenSans-Bold.ttf') format('truetype'),
+		url('../fonts/OpenSans-Bold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'PlayfairDisplay Regular';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Regular.eot') format('eot'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplay-Regular.woff') format('woff'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplay-Regular.ttf') format('truetype'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplay-Regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'PlayfairDisplay Bold';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/PlayfairDisplay/PlayfairDisplay-Bold.eot') format('eot'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplay-Bold.woff') format('woff'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplay-Bold.ttf') format('truetype'),
+		url('../fonts/PlayfairDisplay/PlayfairDisplay-Bold.woff2') format('woff2');
+}
+
+img {
+	max-width: 100%;
+}
+
+body {
+	font-family: 'Open Sans Regular', sans-serif;
+	color: #000;
+	font-size: 14px;
+}
+
+h1 {
+	font-family: 'PlayfairDisplay Bold', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 80px;
+	line-height: 84px;
+	letter-spacing: 0.15em;
+}
+
+h2 {
+	font-family: 'Open Sans Regular', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 22px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-family: 'PlayfairDisplay Regular';
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14.4px;
+	letter-spacing: 0.05em;
+}
+
+.pdf-page {
+	position: relative;
+	padding: 85pt 30pt;
+	position: relative;
+	margin: 0 auto;
+	box-sizing: border-box;
+	color: #2d2d2d !important;
+}
+
+.pdf-page.portrait {
+  width: 595px;
+	overflow-x: auto;
+}
+
+.page-header--h2 {
+	padding: 8px 0;
+	border: 1px solid #000;
+	max-width: 284px;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.page-header--h2 span {
+	display: block;
+}
+
+.page-header--h3 {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.page-header--logo {
+	text-align: center;
+	margin-bottom: 67px;
+}
+
+table {
+	width: 100%;
+	border-spacing: 0;
+	display: table-cell;
+	empty-cells: hide;
+}
+
+table thead tr td {
+	font-family: 'PlayfairDisplay Bold', sans-serif;
+}
+
+table tr td:first-child {
+	width: 156px;
+	padding-bottom: 5px;
+	padding-right: 21.4px;
+}
+
+table tr td.empty {
+	padding: 0;
+}
+
+table tbody tr td {
+	vertical-align: top;
+	font-family: 'Open Sans Light', sans-serif;
+}
+
+.sections .block {
+	margin-bottom: 40px;
+}
+
+.sections .block:first-child {
+	margin-bottom: 55px;
+}
+
+.sections .block:nth-child(2) {
+	margin-bottom: 30px;
+}
+
+.sections .block:last-child {
+	margin-bottom: 60px;
+}
+
+.sections .block--wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: space-between;
+}
+
+.sections .block--left tr td:first-child {
+	padding-bottom: 0;
+}
+
+.sections .block--left {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: column;
+	width: 139px;
+}
+
+.sections .block--left table {
+	margin-bottom: 40px;
+}
+
+.sections .block--left table:first-child {
+	margin-top: 10px;
+}
+
+.sections .block--left table:last-child {
+	margin-bottom: 0;
+}
+
+.sections .block--wrapper .block--left table tbody td span {
+	padding-bottom: 10px;
+	display: inline-block;
+}
+
+.sections .block--wrapper .block--left table tbody td span:last-child {
+	padding-bottom: 0;
+}
+
+.sections .block--right {
+	width: 335px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-direction: column;
+}
+
+.sections .block--right table {
+	padding-bottom: 40px;
+}
+
+.sections .block--right table:last-child {
+	padding-bottom: 0;
+}
+
+.sections .block--right thead td,
+.sections .block--right tbody td {
+	font-size: 9px;
+	line-height: 10px;
+	text-transform: capitalize;
+	font-family: 'Open Sans Light';
+}
+
+.sections .block--right thead td {
+	font-weight: 700;
+	font-family: 'Open Sans Bold';
+	padding-bottom: 10px;
+}
+
+.sections .block--right thead td:first-child,
+.sections .block--right tbody td:first-child {
+	width: 83px;
+}
+
+.sections .block--right thead td:nth-child(2),
+.sections .block--right tbody td:nth-child(2) {
+	width: 62px;
+	padding-right: 20px;
+}
+
+.sections .block--right thead td:nth-child(3),
+.sections .block--right tbody td:nth-child(3) {
+	width: 75px;
+	text-align: right;
+	padding-right: 30px;
+}
+
+.sections .block--right thead td:last-child,
+.sections .block--right tbody td:last-child {
+	width: 54px;
+	text-align: right;
+}
+
+.sections .block--right tbody td.rowspan {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	gap: 18px;
+}
+
+.sections .block--right .row-result td {
+	font-family: 'Open Sans Bold';
+	font-weight: 700;
+	padding-top: 10px;
+}
+
+.sections .block--right .row-result:first-child td {
+	padding-top: 5px;
+}
+
+.sections .block--right .row-result.thin td {
+	font-family: 'Open Sans Light';
+	font-weight: 300;
+}
+
+.sections .block--right table.info {
+	padding-bottom: 30px;
+}
+
+.sections .block--right table.info td {
+	padding: 0;
+	width: 100%;
+	text-align: left;
+	font-size: 14px;
+	line-height: 15.4px;
+	text-transform: initial;
+}
+
+.sections .block--right table.info thead td {
+	font-family: 'PlayfairDisplay Bold', sans-serif;
+	padding-bottom: 5px;
+}
+
+.sections .block--right .image .title{
+	font-family: 'PlayfairDisplay Bold', sans-serif;
+	padding-bottom: 10px;
+}
+
+.sections .block--right .image--block{
+	margin-bottom: 10px;
+}
+
+.sections .block--right .image .desc{
+	font-family: 'Open Sans Light';
+}
